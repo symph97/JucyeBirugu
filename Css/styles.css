@@ -1,0 +1,173 @@
+/* -----pour  la page Evenement */
+.nav{
+    position: absolute;
+    height: 83.5vh;
+    top: 13%;
+    padding: 10px 30px;
+}
+
+.nav img{
+    margin: 10px;
+    display: inline-block
+}
+
+.detail {
+    position: absolute;
+    top: 59%;
+}
+
+.dev{
+    padding: 5px 15px;
+    width: 15.5%;
+    height: 7%;
+    margin: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.dev h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 93, 34);
+}
+
+/* ------Pour la page Programmes */
+
+.tab h1{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tab h1{
+     color: white;
+     font-size: 45px;
+}
+
+.tab table{
+    position: absolute;
+    font-size: 31px;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+}
+
+thead{
+    color: rgb(139, 253, 72);
+    background: rgb(71, 71, 71);
+}
+
+/* ---page index--- */
+
+.index{
+    position: absolute;
+    top: 13%;
+    padding: 10px;
+}
+
+.index img{  
+    display: inline-block
+}
+
+/* ---page_videos--- */
+
+.video {
+    position: absolute;
+    top: 15%;
+    display: table-row;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(263, 58, 57);
+}
+
+video{
+    padding: 9px;
+    align-items: center;
+    background: rgb(252, 115, 65);
+    border: 1px dashed whitesmoke;
+}
+
+.p {
+    position: absolute;
+    top: 49%;
+    display: table-row;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(263, 58, 57);
+}
+.audio{
+    position: absolute;
+    top: 79%;
+    display: table-row;
+    height: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(263, 58, 57);
+}
+audio{
+    padding: 7px;
+    align-items: center;
+    background: rgb(252, 115, 65);
+    border: 1px dashed whitesmoke;
+}
+.foot{
+    background: rgb(252, 115, 65);
+    height: 33vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* ---page temoignages */
+
+.inn img{
+    float: left;
+    width: 250px;
+}
+.bio{
+    color: white;
+    margin: 15px;
+    width: 498px;
+}
+.b{
+    color: white;
+}
+
+.esp img{
+    float: right;
+    margin-top: -100%;
+    margin-right: -151%;
+    width: 250px;
+}
+.mbio{
+    color: white;
+    width: 389px;
+    margin-top: -99.5%;
+    margin-left: 125%;
+}
+
+/* Home et apropos */
+
+.aprop {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+/* courrier */
+.form
+{
+    background-color: rgb(49, 32, 11);
+    color: white;
+    width: 289px;
+    margin: auto;
+    margin-top: -35%;
+    align-content: center;
+    text-align: center;
+}
